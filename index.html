@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Hi, I'm <span>DIPA BARUA</span></h2>
+            <p>Welcome to my portfolio</p>
+            <p>I'm a passionate web developer with a knack for creating dynamic and responsive websites.</p>
+            <div class="social-links">
+                <a href="https://github.com/dipabarua22" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="" target="_blank">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
+                <a href="https://www.linkedin.com/in/dipa-barua-387071303/" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+
+        </div>
+        <div class="hero-img">
+            <img src="images/pp.jpeg" alt="Profile Picture" />
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skill-boxes">
+            <div class="skill-card"><img src="images/html.png" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="skill-card"><img src="images/css.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="skill-card"><img src="images/js.png" alt="JS">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-card"><img src="images/react.png" alt="React">
+                <p>React</p>
+            </div>
+            <div class="skill-card"><img src="images/bootstrap.png" alt="Bootstrap">
+                <p>Bootstrap</p>
+            </div>
+            <div class="skill-card"><img src="images/github.png" alt="GitHub">
+                <p>Git & GitHub</p>
+            </div>
+            <div class="skill-card"><img src="images/python.png" alt="Python">
+                <p>Python</p>
+            </div>
+            <div class="skill-card"><img src="images/nextjs.png" alt="Django">
+                <p>Django</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2><span>My</span> Projects</h2>
+
+
+        <div class="project-grid">
+            <div class="project-card">
+                <span class="project-badge">#1</span>
+                <img src="images/qr-code.jpg" alt="QR Code Generator">
+                <div class="project-content">
+                    <h3>QR Code Generator</h3>
+                    <p>A python tool that transforms any URLs into fully functional QR codes.</p>
+                    <a href="https://github.com/dipabarua22/Python_tasks.git" target="_blank" class="view-btn">
+                        <i class="fab fa-github"></i> View Project →
+                    </a>
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <span class="project-badge">#2</span>
+                <img src="images/currency.jpeg" alt="Currency Converter">
+                <div class="project-content">
+                    <h3>Real-Time Currency Converter</h3>
+                    <p>App that fetches live exchange rates to convert between different currencies.</p>
+                    <a href="https://github.com/dipabarua22/daily-python.git" target="_blank" class="view-btn">
+                        <i class="fab fa-github"></i> View Project →
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <span class="project-badge">#3</span>
+                <img src="images/contact-book.jpg" alt="Contact CLI">
+                <div class="project-content">
+                    <h3>Contact Book CLI</h3>
+                    <p>Terminal-based app to add, view, edit, and delete contact information.</p>
+                    <a href="https://github.com/dipabarua22/contact_book_management_system.git" target="_blank"
+                        class="view-btn">
+                        <i class="fab fa-github"></i> View Project →
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <span class="project-badge">#4</span>
+                <img src="images/all-in-one.jpg" alt="Contact CLI">
+                <div class="project-content">
+                    <h3>All_In _One_University_Project</h3>
+                    <p>This project helps manage university-related tasks such as student records, faculty details,
+                        course management, and more.</p>
+                    <a href="https://github.com/dipabarua22/All-In-One-University.git" target="_blank" class="view-btn">
+                        <i class="fab fa-github"></i> View Project →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-form">
+            <h3>Send Me a Message</h3>
+            <form>
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Email Address" required />
+                <input type="text" placeholder="Subject" />
+                <textarea rows="5" placeholder="Your message here..." required></textarea>
+                <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <h4><i class="fas fa-envelope"></i> Email</h4>
+            <p>dipabarua44@gmail.com</p>
+
+            <h4><i class="fas fa-phone"></i> Phone</h4>
+            <p>+088123456789</p>
+
+            <h4><i class="fas fa-map-marker-alt"></i> Location</h4>
+            <p>Cumilla, Bangladesh</p>
+
+        
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
