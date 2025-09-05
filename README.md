@@ -1,4 +1,4 @@
-s# 🌐 Personal Portfolio Website
+# 🌐 Personal Portfolio Website
 
 A responsive and modern **personal portfolio website** built with **HTML5, CSS3, and FontAwesome icons** to showcase my skills, projects, and contact details.  
 
